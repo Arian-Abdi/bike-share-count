@@ -1,0 +1,33 @@
+# Model files
+AutogluonModels/
+*.pkl
+*.joblib
+*.h5
+*.model
+*.pth
+models/
+
+# Data files
+*.csv
+*.zip
+*.tar.gz
+data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large files
+*.parquet
+*.feather
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS/SageMaker
+.aws-sam/
